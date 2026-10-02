@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+<style>
+
+body {
+    background-color: #1f3786;
+    color: #f0f1f5;
+    margin: 0;
+    }
+
+.hero-image {
+            background-image: url(https://t3.ftcdn.net/jpg/02/99/03/64/360_F_299036464_hDE9lt2YfjfWRqq3ZCt8lowx5YyLZrz7.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 100%;
+            padding: 10%;
+    }
+
+
+.hero-text {
+        color: #1f3786;
+        text-align: center;
+    }
+
+header p{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+
+header {
+        text-align: left;
+        background-color: #521414;
+        padding-top: 5px;
+    }
+
+p{
+text-align: center;
+}
+
+.nested-list1{
+        border: 5px double #111e4a;
+        background-color: #191918;
+        padding: 0px;
+        box-shadow: 10px 10px 10px rgba(24, 17, 10, 0.609);
+        margin-bottom: 2px;
+        border-radius: 5px;
+}
+
+.nested-list2{
+        border: 5px double #111e4a;
+        background-color: #191918;
+        padding: 0px;
+        box-shadow: 10px 10px 10px rgba(24, 17, 10, 0.609);
+        margin-bottom: 2px;
+        border-radius: 5px;
+        
+}
+
+.nested-list3{
+        border: 5px double #111e4a;
+        background-color: #191918;
+        padding: 0px;
+        box-shadow: 10px 10px 10px rgba(24, 17, 10, 0.609);
+        margin-bottom: 2px;
+        border-radius: 5px;
+        
+}
+
+.ALBUMS {
+    display: flex;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.ROBOTICS {
+    display: flex;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.album-image{
+    width: 350px;
+    margin-left: 30px;
+    text-align: center;
+    flex-shrink: 0;
+ 
+}
+
+.robotics-image {
+    width: 350px;
+    margin-left: 30px;
+    text-align: center;
+    flex-shrink: 0;
+}
+
+.album-image img {
+    width: 350px;
+}
+
+.robotics-image img {
+    width: 350px;
+}
+
+.rating {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.feedback {
+    margin-top: 30px;
+}
+
+.button {
+
+    background-color: #620d0d;
+    color: #e5e3e3;
+    border-radius: 5px;
+}
+
+.CONTACTS{
+    margin-left: 30px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+footer {
+        text-align: center;
+        background-color: #521414;
+        padding-top: 5px;
+        padding-bottom: 5px;
+}
+
+    </style>
+
+</head>
+<body>
+
+<header>
+
+<img src="image.png" width="55px">
+<p>
+    <a href="#about-me" style="color: #1f3786;">ABOUT ME</a>
+    <a href="#my-works" style="color: #1f3786;">MY WORKS</a>
+    <a href="#contact-me" style="color: #1f3786;">CONTACT ME</a>
+</p>
+
+</header>
+
+<div class="hero-image">
+    <div class="hero-text">
+        <img src="PORTFOLIO PICTURE.jpeg" width="150px">
+        <h1>Hello! I'm Cherry Nocom.</h1>
+        <h3 style="color: #521414;">Dog-Lover and Gamer</h3>
+    </div>
+ </div>
+
+
+<!-- ABOUT ME -->
+<div class="ABOUT" id="about-me">
+    <div class="nested-list1">
+<center>
+     <h3 style="color: #902323;">ABOUT ME</h3>
+</center>
+    </div>
+    <p>
+        You can call me <em>Cherry</em>, I like fast-paced and strategic based games.
+        I also love dogs.
+    </p>
+</div>
+
+
+<!-- MY WORKS -->
+<div class="WORKS" id="my-works">
+    <div class="nested-list2">
+        <center>
+            <h3 style="color: #902323;">MY WORKS</h3>
+        </center>
+    </div>
+</div>
+<br>
+<div class="ALBUMS">
+    <div class="album-image">
+    <img src="TOP ALBUMS.png" width="350" alt="ARTISTS">
+    <p>MY TOP SPOTIFY ALBUM FOR 2026</p>
+</div>
+
+    <ul>
+        <li>HTML & CSS PROJECTS ✓</li>
+        <li>SPOTIFY ARTIST + ALBUM ✓</li>
+        <li>WORKING LINKS, LISTS, AND IMAGES ✓</li>
+<li><a href="https://github.com/9T-NOCOMCHERRY/Q1-SW1" style="color: #902323;">Click here to view the GitHub Repository</a></li></div>
+
+<div class="ROBOTICS">
+    <div class="robotics-image">
+    <img src="ROBOTICS.png" width="350" alt="ROBOTICSFORM">
+    <p>MY ROBOTICS CLUB WEBFORM</p>
+</div>
+    <ul>
+    <li>HTML & CSS PROJECTS ✓</li>
+    <li>HTML Forms ✓</li>
+    <li>SPECIFCATION OF REASON FOR JOINING ✓</li>
+<li><a href="https://github.com/9T-NOCOMCHERRY/Q1_SKILLSTEST" style="color: #902323">Click here to view the GitHub Repository</a></li></div>
+</div>
+
+<!-- CONTACT -->
+<div id="contact-me">
+    <div class="nested-list3">
+ <center>
+     <h3 style="color: #902323;">CONTACT ME</h3>
+ </center>
+</div>
+
+<div class="CONTACTS">
+<form>
+<br>
+
+<legend>Full Name:</legend>
+        <input type="fname" id="fname" name="name">
+<br>
+<br>
+<legend>Email:</legend>
+        <input id= "email-addr" type="email">
+<br>
+<br>
+
+<!-- FIND -->
+<fieldset>
+            <legend>How did you find me?:</legend>
+            <input type="radio" name="rating">
+            <label>Facebook</label>
+            <input type="radio" name="rating">
+            <label>Instagram</label>
+            <input type="radio" name="rating">
+            <label>Friends</label>
+</fieldset>
+<!-- INTERESTS -->
+<fieldset>
+            <legend>What interests do we have in common? <i>(Select all that apply.)</i></legend>
+            <input type="checkbox">
+            <label>Games</label>
+            <input type="checkbox">
+            <label>Editing</label>
+            <input type="checkbox">
+            <label>Dogs</label>
+            <input type="checkbox">
+            <label>Music</label>
+</fieldset>
+
+<p class="rating">Rate my Portfolio:</p>
+<select>
+    <option value="1">⭐️</option>
+    <option value="2">⭐️⭐️</option>
+    <option value="3">⭐️⭐️⭐️</option>
+    <option value="4">⭐️⭐️⭐️⭐️</option>
+    <option value="5">⭐️⭐️⭐️⭐️⭐️</option>
+</select>
+
+<!-- FEEDBACK -->
+<div class="feedback">
+    <label for="reason">FEEDBACK IS APPRECIATED! </label><br>
+<textarea placeholder="This portfolio is..." name="reason" id="reason" rows="10" cols="45"></textarea>
+</div>
+    
+<br>
+<input type="submit" value="SUBMIT FEEDBACK" class="button">
+</form>
+<br>
+
+</div>
+
+<footer>
+    <p>© 2026 | Cherry Nocom | 9-Topaz </p>
+</footer>
+
+</body>
+</html>
